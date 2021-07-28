@@ -78,8 +78,8 @@ background(bg1)
 
   createObstacle();
 
-  textSize(20)
-  fill("blue")
+  textSize(30)
+  fill("white")
   text(inpval + "'s"+" Score: " + score,100,100);
   
   if(keyDown("space")){
